@@ -198,6 +198,7 @@ body {
   background-color: azure;
   align-items: center;
   justify-content: flex-start;
+  margin-bottom: 0; 
 }
 
 .logoBlack {
