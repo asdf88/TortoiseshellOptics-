@@ -7,6 +7,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: white;
 }
 
 .container {
@@ -94,4 +95,128 @@ body {
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
+}
+
+.services {
+  margin: 3rem auto;
+  height: 8rem;
+  border: 1px solid black;
+  padding: 0;
+  justify-content: center;
+}
+
+.exams,
+.fittings,
+.delivery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0 3rem;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.paperIcon {
+  width: 3.5rem;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 1px solid blue;
+}
+
+.rulerIcon {
+  width: 5rem;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 1px solid blue;
+}
+
+.truckIcon {
+  width: 5rem;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 1px solid blue;
+}
+
+.exams p,
+.fittings p,
+.delivery p {
+  font-family: Helvetica;
+  line-height: 1.4;
+  color: black;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border: 1px solid yellow;
+}
+
+.about {
+  /*display: inline-flex;*/
+  justify-content: center;
+  border: 1px solid green;
+}
+
+.philosophy,
+.appointments {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 35%;
+  padding: 0;
+  margin-right: 5%;
+  border: 2px solid purple;
+}
+
+.philosophy h3,
+.appointments h3 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 10rem;
+  margin: 0 0 1rem 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  background: cadetblue;
+  color: white;
+}
+
+.philosophy p,
+.appointments p {
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: black;
+  line-height: 1.4rem;
+}
+
+.footer {
+  margin-top: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  background-color: azure;
+  align-items: center;
+  justify-content: flex-start;
+  border: 2px solid orange;
+}
+
+.logoBlack {
+  margin: 0;
+  padding: 0 1rem 0 0;
+  height: 1.5rem;
+  width: auto;
+  border: 2px solid red;
+}
+
+.footer p {
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: black;
+  padding: 0;
+  margin: 0;
+  border: 2px solid blue;
 }
